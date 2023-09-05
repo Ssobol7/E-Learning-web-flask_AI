@@ -1,6 +1,6 @@
 
 
-![Alt text](https://github.com/Ssobol7/E-Learning-web-flask_AI/blob/main/flask_app/img/flask-python.png))
+![Alt text](https://github.com/Ssobol7/E-Learning-web-flask_AI/blob/main/flask_app/img/flask-python.png)
 
 
 
