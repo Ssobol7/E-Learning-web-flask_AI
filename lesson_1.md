@@ -1,6 +1,6 @@
 
 
-![Alt text](1_O0S2-UBv_Y1RRgHgRkg1yQ.webp)
+![Alt text](https://github.com/Ssobol7/E-Learning-web-flask_AI/blob/main/flask_app/img/1_O0S2-UBv_Y1RRgHgRkg1yQ.webp)
 
 
 # **1. Введение во Flask**
