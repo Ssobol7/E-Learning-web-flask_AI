@@ -1,5 +1,7 @@
 ![Alt text](flask_app/img/flask-python.png)
 
+
+
 # Lesson 2:
 
 # 14. Создание баз данных во Flask
@@ -1318,4 +1320,7 @@ def contact():
 
 ![Alt text](flask_app/img/zapis-soobsheniya-v-baze-dannyh.png)
 
+---
 
+
+© 2023 S.Sobolewski
