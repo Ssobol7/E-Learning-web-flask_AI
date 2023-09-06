@@ -3,9 +3,9 @@
 ![Alt text](flask_app/img/flask-python.png)
 
 
-[Official site Flask](https://palletsprojects.com/p/flask/)
+[Official site:  Flask](https://palletsprojects.com/p/flask/)
 
-[GitHub Flask](https://github.com/pallets/flask)
+[GitHub:  Flask](https://github.com/pallets/flask)
 
 
 
