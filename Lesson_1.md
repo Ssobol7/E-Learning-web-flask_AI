@@ -1,12 +1,12 @@
 
 
-![Alt text](https://github.com/Ssobol7/E-Learning-web-flask_AI/blob/main/flask_app/img/flask-python.png)
-
+![Alt text](flask_app/img/flask-python.png)
 
 
 [Official site Flask](https://palletsprojects.com/p/flask/)
 
 [GitHub Flask](https://github.com/pallets/flask)
+
 
 
 # **1. Введение во Flask**
