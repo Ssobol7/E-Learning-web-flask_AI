@@ -3273,6 +3273,7 @@ def updating_session():
 
 ---
 
+© 2023 S.Sobolewski
 
 
 
