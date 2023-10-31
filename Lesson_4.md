@@ -266,7 +266,7 @@ def admin():
 
 Откроется такая страница:
 
-![](img/stranica-s-oshibkoj-401.png)
+![](flask_app/img/stranica-s-oshibkoj-401.png)
 
 Вместо того чтобы показывать пользователю **ошибку 401**, лучше перенаправить его на страницу авторизации. 
 
@@ -310,7 +310,7 @@ def login():
 Если теперь зайти на https://localhost:5000/admin/, произойдет перенаправление на страницу авторизации:
 
 
-![](img/stranica-avtorizacii-vo-flask.png)
+![](flask_app/img/stranica-avtorizacii-vo-flask.png)
 
 **Flask-Login** также настраивает всплывающее сообщение, когда пользователя перенаправляют на страницу авторизации, но сейчас никакого сообщения нет, потому что шаблон авторизации (**template/login.html**) не отображает никаких сообщений. Нужно открыть **login.html** и добавить следующий код перед тегом `<form>`:
 
@@ -329,7 +329,7 @@ def login():
 
 Если снова зайти на https://localhost:5000/admin/, на странице отобразится сообщение.
 
-![](img/oshibka-avtorizacii-vo-flask.png)
+![](flask_app/img/oshibka-avtorizacii-vo-flask.png)
 
 
 Чтобы изменить содержание сообщения, нужно передать новый текст атрибуту `login_message` экземпляра `LoginManager``.
@@ -470,19 +470,19 @@ def login():
 
 Если зайти https://localhost:5000/admin, произойдет перенаправление на страницу авторизации:
 
-![](img/perenapravlenie-na-stranicu-avtorizacii.png)
+![](flask_app/img/perenapravlenie-na-stranicu-avtorizacii.png)
 
 
 Необходимо ввести корректное имя пользователя и пароль и нажать **sumbit**. Произойдет перенаправление на страницу администратора, которая должна выглядеть следующим образом:
 
-![](img/perenapravlenie-na-stranicu-administratora.png)
+![](flask_app/img/perenapravlenie-na-stranicu-administratora.png)
 
 
 Если не кликнуть **“Remember Me”** при авторизации, после закрытия браузера сайт выйдет из аккаунта. Если кликнуть, то логин останется.
 
 Если ввести неправильные имя пользователя или пароль, произойдет перенаправление на страницу авторизации со всплывающим сообщением:
 
-![](img/oshibka-avtorizacii-vo-flask-2.png)
+![](flask_app/img/oshibka-avtorizacii-vo-flask-2.png)
 
 
 
@@ -526,13 +526,13 @@ def logout():
 
 Если сейчас зайти на https://localhost:5000/admin/ (будучи авторизованным), то в нижней части страницы должны быть ссылка для выхода из аккаунта:
 
-![](img/logout_link_in_admin_page.png)
+![](flask_app/img/logout_link_in_admin_page.png)
 
 
 Если ее нажать, произойдет перенаправление на страницу авторизации:
 
 
-![](img/vyhod-iz-akkaunta.png)
+![](flask_app/img/vyhod-iz-akkaunta.png)
 
 
 ### Финальные штрихи
